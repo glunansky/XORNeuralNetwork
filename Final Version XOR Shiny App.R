@@ -214,7 +214,7 @@ ui <- fluidPage(
     
     tabPanel("The XOR Neural Network",
              
-                  # This tab will give some general information on the XOR NN 
+                  # This tab will give some general information on the XOR NN
     
                   p("This app aims for its users to play around with a simple neural network - the XOR neural network, in order to grasp the purpose and functionality of Neural Networks (NNs)."),
                   
@@ -229,8 +229,8 @@ ui <- fluidPage(
                     
              br(),
              br(),
-                  p("In the 'Training Tab', the user can change the number of iterations for the training phase, the number of hidden nodes, and the value of the learning rate. The graph shows the error of each combination of input nodes over the iterations. The error indicates the difference between the current output node value, and its target (which is a 0 or a 1). When all four lines are close to 0, the NN found optimal weights. To test these weights, the user clicks the button "Save this Neural Network""),
-                  p("Once saved, the user can test the NN in the 'Test Tab'. The different combinations of input nodes can be selected in the left panel. By clicking the 'TEST' button, the NN goes through the Forward Propagation function with the saved weight matrix. In the left panel, a summary of the results is shown, providing a conclusion regarding the correctness of the trained network for the selected input nodes. If the absolute value of the error (difference between the value of the output node and the target) is lower than .3, it is concluded that the network is well-trained. 
+                  p("In the Training Tab, the user can change the number of iterations for the training phase, the number of hidden nodes, and the value of the learning rate. The graph shows the error of each combination of input nodes over the iterations. The error indicates the difference between the current output node value, and its target (which is a 0 or a 1). When all four lines are close to 0, the NN found optimal weights. To test these weights, the user clicks the button Save this Neural Network"),
+                  p("Once saved, the user can test the NN in the Test Tab. The different combinations of input nodes can be selected in the left panel. By clicking the 'TEST' button, the NN goes through the Forward Propagation function with the saved weight matrix. In the left panel, a summary of the results is shown, providing a conclusion regarding the correctness of the trained network for the selected input nodes. If the absolute value of the error (difference between the value of the output node and the target) is lower than .3, it is concluded that the network is well-trained. 
                     "),
              br(),
              br(),
