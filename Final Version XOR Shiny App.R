@@ -11,6 +11,8 @@
 ## 1,0 --> 1
 ## 0,0 --> 0
 
+# This code can be found at https://github.com/glunansky/XORNeuralNetwork, and is called Final Version XOR Shiny App.R
+
 
 library("shiny")
 
